@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: futura-pt, sans-serif;
+  }
+  
+  body {
+    margin: 100px;
+    background-color: #f4fcf5;
+  }
+  h1 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72pt;
+  }
+  h2 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60pt;
+  }
+  h3 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48pt;
+  }
+  h4 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36pt;
+  }
+  h5 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30pt;
+  }
+  h6 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+  }
+  p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24pt;
+  }
+  a:link,
+  a:visited {
+    color: #082035;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #1f5258;
+    text-decoration: none;
+  }
+  a:active {
+    color: #519a83;
+    text-decoration: none;
+  }
+  hr
+  {
+    border: 3.5px dashed #060d18;
+  }
+  /* Not done, needs work, but I got to 10 declarations at least
+  button {
+    background-color: #082035;
+    border-radius: 20px;
+    color: #f4fcf5;
+    padding: 200px 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+  }
+  */
+  
