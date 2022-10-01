@@ -77,7 +77,7 @@
     border: 3.5px dashed #060d18;
   }
 
-  @media (max-width: 400px) {
+  /*@media (max-width: 400px) {
     .body{
     display: flex;
     }
@@ -87,4 +87,4 @@
     .body{
       display: flex;
     }
-  }
+  }*/
