@@ -3,9 +3,10 @@
   }
   
   nav {
-    background-color: #000;
-    padding: .5em;
-    position: sticky;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #060d18;
+    padding: 1em;
+    position: static;
     top: 0;
   }
   
@@ -28,8 +29,23 @@
   }
 
   body {
-    margin: 75px;
+    margin: 0;
     background-color: #f4fcf5;
+  }
+
+  .grid {
+    margin: 0 auto;
+    padding: 0 75px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
   }
 
   h1 {
