@@ -35,10 +35,10 @@
 
   .grid {
     margin: 0 auto;
-    padding: 0 75px;
+    padding: 0 25px;
     max-width: 980px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 
