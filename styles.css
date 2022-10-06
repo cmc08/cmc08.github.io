@@ -2,8 +2,29 @@
     font-family: futura-pt, sans-serif;
   }
   
+  nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
   body {
-    margin: 100px;
+    margin: 75px;
     background-color: #f4fcf5;
   }
 
@@ -11,55 +32,51 @@
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 72pt;
+    font-size: 60pt;
+    text-decoration: underline #519a83 5px;
+    text-align: center;
   }
 
   h2 {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 60pt;
+    font-size: 48pt;
   }
 
   h3 {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 48pt;
+    font-size: 36pt;
   }
 
   h4 {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36pt;
+    font-size: 30pt;
   }
 
   h5 {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 30pt;
+    font-size: 24pt;
   }
 
   h6 {
     font-family: futura-pt-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 24pt;
+    font-size: 21pt;
   }
 
   p {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24pt;
-  }
-
-  a:link,
-  a:visited {
-    color: #082035;
-    text-decoration: none;
+    font-size: 21pt;
   }
 
   a:hover {
