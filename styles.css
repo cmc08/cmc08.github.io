@@ -1,7 +1,9 @@
+  /* define font used for page */
   html {
     font-family: futura-pt, sans-serif;
   }
   
+  /* nav bar styling */
   nav {
     border-radius: 0px 0px 25px 25px;
     background-color: #060d18;
@@ -28,18 +30,18 @@
     padding: .5em 1em;
   }
 
-  body {
-    margin: 0;
-    background-color: #f4fcf5;
-  }
-
   .grid {
     margin: 0 auto;
     padding: 0 75px;
-    max-width: 1500px;
+    max-width: 1250px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+
+  body {
+    margin: 0;
+    background-color: #f4fcf5;
   }
 
   h1 {
@@ -56,6 +58,8 @@
     font-weight: 700;
     font-style: normal;
     font-size: 48pt;
+    text-decoration: underline #519a83 5px;
+    text-align: center;
   }
 
   h3 {
@@ -63,6 +67,8 @@
     font-weight: 700;
     font-style: normal;
     font-size: 36pt;
+    text-decoration: underline #519a83 5px;
+    text-align: center;
   }
 
   h4 {
