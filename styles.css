@@ -26,6 +26,25 @@
   box-sizing: border-box;
 }
 
+@media all and (max-width: 400px) and (min-width: 1px) 
+{
+    .main-1 {
+        float: none;
+        width: 100%;
+    }
+
+    .main-2 {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1900px) {
+  .body{
+    display: flex;
+  }
+}
+
   /* nav bar styling */
   nav {
     border-radius: 0px 0px 25px 25px;
@@ -151,23 +170,4 @@
   .feature {
     float: center;
     margin-right: 20px;
-  }
-
-  @media all and (max-width: 400px) and (min-width: 1px) 
-  {
-      .main-1 {
-          float: none;
-          width: 100%;
-      }
-
-      .main-2 {
-          float: none;
-          width: 100%;
-      }
-  }
-
-  @media (max-width: 1900px) {
-    .body{
-      display: flex;
-    }
   }
