@@ -60,17 +60,24 @@
     padding: .5em 1em;
   }
 
-@media all and (max-width: 500px) and (min-width: 1px) 
+@media all and (max-width: 480px) and (min-width: 1px) 
 {
     .main-1 {
         float: none;
         width: 100%;
+        padding: 20px 10px 20px 10px;
     }
 
     .main-2 {
         float: none;
         width: 100%;
+        padding: 20px 10px 20px 10px;
     }
+    .main-3 {
+      float: none;
+      width: 100%;
+      padding: 20px 10px 20px 10px;
+  }
 
     nav a {
       font-size: 16pt;
