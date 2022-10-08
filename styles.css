@@ -9,40 +9,28 @@
 }
 
 .main-1 {
-  border: 1px solid red;
   float: left;
   display: block;
   width: 50%;
-  padding: 0px;
+  padding: 20px 50px 20px 50px;
   box-sizing: border-box;
 }
 
 .main-2 {
-  border: 1px solid blue;
   float: right;
   display: block;
   width: 50%;
-  padding: 0px;
+  padding: 20px 50px 20px 50px;
   box-sizing: border-box;
 }
 
-@media all and (max-width: 400px) and (min-width: 1px) 
-{
-    .main-1 {
-        float: none;
-        width: 100%;
-    }
-
-    .main-2 {
-        float: none;
-        width: 100%;
-    }
-}
-
-@media (max-width: 1900px) {
-  .body{
-    display: flex;
-  }
+.main-3 {
+  float: right;
+  display: block;
+  clear: both;
+  width: 100%;
+  padding: 20px 200px 20px 200px;
+  box-sizing: border-box;
 }
 
   /* nav bar styling */
@@ -72,16 +60,28 @@
     padding: .5em 1em;
   }
 
-  /*
-  .grid {
-    margin: 0 auto;
-    padding: 0 0px;
-    max-width: 1250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
+@media all and (max-width: 500px) and (min-width: 1px) 
+{
+    .main-1 {
+        float: none;
+        width: 100%;
+    }
+
+    .main-2 {
+        float: none;
+        width: 100%;
+    }
+
+    nav a {
+      font-size: 16pt;
+    }
+}
+
+@media (max-width: 1900px) {
+  .body{
+    display: flex;
   }
-  */
+}
 
   body {
     margin: 0;
@@ -170,4 +170,8 @@
   .feature {
     float: center;
     margin-right: 20px;
+  }
+
+  .contact_text {
+    text-align: center;
   }
