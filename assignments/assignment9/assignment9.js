@@ -11,6 +11,7 @@ const imageArray = [`pic1.jpg`, `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 const altArray = {'pic1' : 'image of human eye', 'pic2' : 'image of rock', 
               'pic3' : 'image of flowers', 'pic4' : 'image of egyptian tomb', 'pic5' : 'image of butterfly'};
 
+// Loop through the images
 for (const image of imageArray)
 {
     const newImage = document.createElement('img');
