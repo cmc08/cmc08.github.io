@@ -8,8 +8,8 @@ const overlay = document.querySelector('.overlay');
 // Declaring the array of image filenames 
 const imageArray = [`pic1.jpg`, `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 // Declaring the array of alternate text 
-const altArray = {'pic1' : 'image of human eye', 'pic2' : 'image of rock', 
-              'pic3' : 'image of flowers', 'pic4' : 'image of egyptian tomb', 'pic5' : 'image of butterfly'};
+const altArray = {'pic1' : 'Image of Tyrion Lannister', 'pic2' : 'Image of Arya Stark', 
+              'pic3' : 'Image of Daenerys Targaryen', 'pic4' : 'Image of Ned Stark', 'pic5' : 'Image of Jon Snow'};
 
 // Loop through the images
 for (const image of imageArray)
