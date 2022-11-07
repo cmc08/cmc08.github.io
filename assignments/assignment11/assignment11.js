@@ -20,7 +20,7 @@ const getRandomPokemon = () => {
 
 const displayPokemon = (name, image) => {
     const html = `<h2 class="fix-stroke">It's ... ${name}!</h2>
-                  <img src="${image}" alt="${name}">`;
+                  <img src="${image}" width="200" alt="${name}">`;
     randomPokemon.innerHTML = html;
     console.log(name, image);
 };
