@@ -20,53 +20,6 @@ body {
   box-sizing: border-box;
 }
 
-.pokemon-move {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
-}
-
-.random-pokemon, .random-pokemon2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader-container, .loader-container2 {
-  height: 200px;
-  justify-content: center;
-  background: 
-      url("pokeball.gif") center
-      no-repeat;
-  z-index: 1;
-}
-
-.button {
-  display: block;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-align: center;
-  width: 100%;
-  font-size: 20px;
-}
-
-.new-pokemon {
-  background-color: #2D6A4F;
-  margin-bottom: 15px;
-  align-self: center;
-  width: 50%;
-  transition: all .2s ease-in-out;
-}
-
-.new-pokemon:hover {
-  background-color: #1B4332;
-}
-
 /* 2nd content container styling */
 .main-2 {
   float: right;
@@ -228,6 +181,59 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 100px;
+}
+
+/* for javascript page - both are containers to display results of a given battle */
+.pokemon-move, .battle-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+/* for javascript page - both are containers to display random pokemon and their names */
+.random-pokemon, .random-pokemon2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* for javascript page - both are containers to display a loading pokeball gif between randomly generated Pokemon*/
+.loader-container, .loader-container2 {
+  height: 200px;
+  justify-content: center;
+  background: 
+      url("pokeball.gif") center
+      no-repeat;
+  z-index: 1;
+}
+
+/* for javascript page - basic button */
+.button {
+  display: block;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* for javascript page - styling for button */
+.new-pokemon {
+  background-color: #2D6A4F;
+  margin-bottom: 15px;
+  align-self: center;
+  width: 50%;
+  transition: all .2s ease-in-out;
+}
+
+/* for javascript page - styling for button upon user hover */
+.new-pokemon:hover {
+  background-color: #1B4332;
 }
 
 /* changes in styling for when the display switches to mobile view */
