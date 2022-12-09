@@ -1,13 +1,17 @@
-  /* define font used for page */
-  html {
-    font-family: futura-pt, sans-serif;
-  }
-  
-  img {
-    max-width: 100%;
-    display: block;
+/* html styling - broad, general - just defines font of page */
+html {
+  font-family: neue-haas-grotesk-display, sans-serif; 
+  font-weight: 400;
+  font-style: normal;
 }
 
+/* body styling */
+body {
+  margin: 0;
+  background-color: #EFFAF1;
+}
+
+/* 1st content container styling */
 .main-1 {
   float: left;
   display: block;
@@ -16,6 +20,7 @@
   box-sizing: border-box;
 }
 
+/* 2nd content container styling */
 .main-2 {
   float: right;
   display: block;
@@ -24,161 +29,200 @@
   box-sizing: border-box;
 }
 
+/* 3rd content container styling */
 .main-3 {
   float: right;
   display: block;
   clear: both;
   width: 100%;
-  padding: 20px 200px 20px 200px;
+  padding: 20px 50px 20px 50px;
   box-sizing: border-box;
 }
 
-  /* nav bar styling */
-  nav {
-    border-radius: 0px 0px 25px 25px;
-    background-color: #060d18;
-    padding: 1em;
-    position: static;
-    top: 0;
+/* header 1 styling */
+h1 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60pt;
+  text-align: center;
+}
+
+/* header 2 styling */
+h2 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48pt;
+  text-align: center;
+}
+
+/* header 3 styling */
+h3 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36pt;
+  text-align: center;
+}
+
+/* header 4 styling */
+h4 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30pt;
+}
+
+/* header 5 styling */
+h5 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24pt;
+}
+
+/* header 6 styling */
+h6 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 21pt;
+}
+
+/* paragraph text styling */
+p {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21pt;
+  color:#081C15;
+}
+
+/* hr {
+  border: 3.5px dashed #060d18;
+} */
+
+/* nav bar styling */
+nav {
+  border-radius: 0px 0px 25px 25px;
+  background-color: #40916c;
+  padding: 1em;
+  position: static;
+  top: 0;
+}
+
+/* styling for the unordered list contained in the navbar */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* styling for the text in the navbar, which is all linked with a href */
+nav a {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21pt;
+  color: #f4fcf5;
+  text-decoration: none;
+  padding: .5em 1em;
+  transition: all .2s ease-in-out;
+}
+
+/* styling for hovering over navbar text */
+a:hover {
+  font-size: 22pt;
+  color: #1f5258;
+  text-decoration: none;
+}
+
+/* styling for clicking on navbar text */
+a:active {
+  font-size: 22pt;
+  color: #519a83;
+  text-decoration: none;
+}
+
+/* styling for img elements broadly */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* styling for photo grid on the index.html page */
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+/* styling for photo grid on the bottom of the gallery.html page */
+.photos2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+/* changes in styling for when the display switches to mobile view */
+@media all and (max-width: 480px) and (min-width: 1px) {
+
+  .photos {
+    grid-template-columns: 1fr;
+    gap: 45px;
   }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+
+  .photos2 {
+    grid-template-columns: 1fr;
+    gap: 45px;
   }
-  
+
+  .main-1 {
+    float: none;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .main-2 {
+    float: none;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .main-3 {
+    float: none;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
   nav a {
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 21pt;
-    color: #f4fcf5;
-    text-decoration: none;
-    padding: .5em 1em;
-  }
-
-@media all and (max-width: 480px) and (min-width: 1px) 
-{
-    .main-1 {
-        float: none;
-        width: 100%;
-        padding: 20px 20px 20px 20px;
-    }
-
-    .main-2 {
-        float: none;
-        width: 100%;
-        padding: 20px 20px 20px 20px;
-    }
-    .main-3 {
-      float: none;
-      width: 100%;
-      padding: 20px 20px 20px 20px;
-  }
-
-    nav a {
-      font-size: 16pt;
-    }
-}
-
-@media (max-width: 1900px) {
-  .body{
-    display: flex;
-  }
-}
-
-  body {
-    margin: 0;
-    background-color: #f4fcf5;
-  }
-
-  h1 {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60pt;
-    text-decoration: underline #519a83 5px;
-    text-align: center;
-  }
-
-  h2 {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48pt;
-    text-decoration: underline #519a83 5px;
-    text-align: center;
-  }
-
-  h3 {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 36pt;
-    text-decoration: underline #519a83 5px;
-    text-align: center;
-  }
-
-  h4 {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30pt;
-  }
-
-  h5 {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24pt;
-  }
-
-  h6 {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 21pt;
-  }
-
-  p {
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 21pt;
+    font-size: 11pt;
   }
 
   a:hover {
-    color: #1f5258;
-    text-decoration: none;
+    font-size: 12pt;
   }
 
   a:active {
-    color: #519a83;
-    text-decoration: none;
+    font-size: 12pt;
   }
 
-  hr
-  {
-    border: 3.5px dashed #060d18;
+}
+
+/* styling for the display outside of mobile */
+@media (max-width: 1900px) {
+
+  .body {
+    display: flex;
   }
 
-  .photos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-  }
-  
-  .feature {
-    float: center;
-    margin-right: 20px;
-  }
-
-  .contact_text {
-    text-align: center;
-  }
+}
