@@ -39,6 +39,16 @@ body {
   box-sizing: border-box;
 }
 
+/* 4th content container styling */
+.main-4 {
+  float: right;
+  display: block;
+  clear: both;
+  width: 100%;
+  padding: 0px 200px 0px 200px;
+  box-sizing: border-box;
+}
+
 /* header 1 styling */
 h1 {
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -136,14 +146,14 @@ nav a {
 /* styling for hovering over navbar text */
 a:hover {
   font-size: 22pt;
-  color: #1f5258;
+  color: #1B4332;
   text-decoration: none;
 }
 
 /* styling for clicking on navbar text */
 a:active {
   font-size: 22pt;
-  color: #519a83;
+  color: #2D6A4F;
   text-decoration: none;
 }
 
@@ -176,29 +186,12 @@ img {
 /* changes in styling for when the display switches to mobile view */
 @media all and (max-width: 480px) and (min-width: 1px) {
 
-  .photos {
+  .photos, .photos2 {
     grid-template-columns: 1fr;
     gap: 45px;
   }
 
-  .photos2 {
-    grid-template-columns: 1fr;
-    gap: 45px;
-  }
-
-  .main-1 {
-    float: none;
-    width: 100%;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .main-2 {
-    float: none;
-    width: 100%;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .main-3 {
+  .main-1, .main-2, .main-3, .main-4 {
     float: none;
     width: 100%;
     padding: 20px 20px 20px 20px;
