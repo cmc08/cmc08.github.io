@@ -204,16 +204,20 @@ img {
     padding: 20px 20px 20px 20px;
   }
 
+  h1 {
+    font-size: 48pt;
+  }
+
   nav a {
-    font-size: 11pt;
+    font-size: 10pt;
   }
 
   a:hover {
-    font-size: 12pt;
+    font-size: 11pt;
   }
 
   a:active {
-    font-size: 12pt;
+    font-size: 11pt;
   }
 
 }
