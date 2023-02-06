@@ -161,6 +161,12 @@ a:active {
 img {
   max-width: 100%;
   display: block;
+  transition:transform 0.25s ease;
+}
+
+img:hover {
+  -webkit-transform:scale(2.5);
+  transform:scale(2.5);
 }
 
 /* styling for photo grid on the index.html page */
