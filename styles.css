@@ -167,6 +167,9 @@ img {
 img:hover {
   -webkit-transform:scale(2.5);
   transform:scale(2.5);
+  position:(0,0);
+
+  align-items: center;
 }
 
 /* styling for photo grid on the index.html page */
