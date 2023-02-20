@@ -1,5 +1,5 @@
 function getPics() {} //just for this demo
-const imgs = document.querySelectorAll('.gallery img');
+const imgs = document.querySelectorAll('.main-3 img');
 const fullPage = document.querySelector('#fullpage');
 
 imgs.forEach(img => {
