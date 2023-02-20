@@ -164,12 +164,18 @@ img {
   transition:transform 0.25s ease;
 }
 
-img:hover {
-  -webkit-transform:scale(2.5);
-  transform:scale(2.5);
-  position:(0,0);
-
-  align-items: center;
+#fullpage {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
 }
 
 /* styling for photo grid on the index.html page */
